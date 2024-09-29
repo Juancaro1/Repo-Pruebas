@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="dojo">
+            <img src="img/blue.png" alt="blue ninja" />
+            <img src="img/green.png" alt="green ninja" />
+            <img src="img/black.png" alt="black ninja" />
+            <img src="img/red.png" alt="red ninja" />
+        </div>
+    </body>
+</html>
