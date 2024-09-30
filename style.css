@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.logo a {
+  height: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links{
+  display: flex;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.nav-links li{
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-links li a{
+  color: white;
+  text-decoration: none;
+}
+
+.cerrar{
+  background-color: mediumorchid;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 600px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 2px;
+  border-radius: 10px ;
+  box-shadow: 5px 5px 15px black;
+}
+
+.top{
+  height: 200px;
+  background-color: aqua;
+}
+
+.imagen-perfil{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 190px;
+  left: 80px;
+  border: 10px solid white;
+  border-radius: 100%;
+}
+
+.nickname{
+  margin-top: 80px;
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.ciudad{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.profesion{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.descripcion{
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.editar{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border: 0px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.solicitudes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.solicitud{
+  display: flex;
+  align-self: center;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.fotos{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  margin: 5px 5px 5px 20px;
+  border: 5px solid rebeccapurple;
+  border-radius: 100%;
+}
+
+.nombres{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 140px;
+  right: 510px;
+}
+
+.nombre1{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  align-self: flex-start;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.nombre2{
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.aceptar{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  right: 350px;
+}
+
+.aceptar1{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 100%;
+  background-color: greenyellow;
+}
+
+.aceptar2{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin-right: 40px;
+  font-size: 25px;
+  border: 1px solid grey;
+  border-radius: 100%;
+  background-color: greenyellow;
+}
+
+.rechazar{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  right: 230px;
+}
+
+.rechazar1{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.rechazar2{
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+  font-size: 25px;
+  border: 1px solid grey;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.row2{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 200px;
+  background-color: white;
+  border: 0px solid grey;
+  margin-top: 40px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.educacion{
+  display: flex;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.Datos, .Datos2, .Datos3{
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.conexiones{
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 450px;
+  right: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.conexiones1{
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.perfiles{
+  width: 100px;
+  height: 100px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: 5px solid rebeccapurple;
+  border-radius: 100%;
+}
+
+.nombres-perfiles{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+
+.Perfil1, .Perfil2, .Perfil3, .Perfil4{
+  margin-top: 120px;
+  font-size: 30px;
+  margin-right: 60px;
+  font-weight: 800;
+}
