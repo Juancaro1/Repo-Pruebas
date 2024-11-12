@@ -18,6 +18,15 @@
 		<li>Idioma: ${cancion.idioma}</li>
 	</ul>
 	
-	<a href="/canciones">Volver</a>
+	<a href="/canciones">Volver</a> 
+	<br>
+	<a href="/canciones/formulario/editar/${cancion.id}">
+        <button>Editar Canción</button>
+    </a>
+	<br>
+	<form action="/canciones/eliminar/${cancion.id}" method="POST">
+		<input type="hidden" name="_method" value="DELETE">
+		<button>Eliminar Cancion</button>
+	</form>
 </body>
 </html>

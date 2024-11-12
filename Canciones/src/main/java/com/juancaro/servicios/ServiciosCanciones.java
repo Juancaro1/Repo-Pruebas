@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.juancaro.modelos.Canciones;
 import com.juancaro.repositorios.RepositorioCanciones;
 
+
 @Service
 public class ServiciosCanciones {
 	
@@ -21,4 +22,17 @@ public class ServiciosCanciones {
 	public Canciones obtenerCancionPorId(Long id) {
 		return repositorio.findById(id).orElse(null);
 	}
+	
+	public Canciones agregarCancion(Canciones cancion) {
+		return this.repositorio.save(cancion);
+	}
+	
+	public Canciones actualizaCancion(Canciones cancion) {
+		return this.repositorio.save(cancion);
+	}
+	
+	public void eliminarCancion(Long id) {
+		this.repositorio.deleteById(id);
+	}
+
 }
