@@ -1,15 +1,12 @@
 package com.juancaro.repositorios;
 
-
-
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.juancaro.modelos.Canciones;
-
-
+import com.juancaro.modelos.Artista;
 
 @Repository
-public interface RepositorioCanciones extends CrudRepository<Canciones, Long> {
+public interface RepositorioArtistas extends CrudRepository<Artista, Long>{
+    
+} 
 
-}

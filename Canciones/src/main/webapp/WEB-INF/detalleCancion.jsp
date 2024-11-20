@@ -5,28 +5,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Detalles</title>
+<link rel="stylesheet" href="/css/Styles.css">
 </head>
 <body>
-	<h1>Detalles de la cancion</h1>
+	<h1>Detalles de la cancion: ${cancion.titulo}</h1>
 	
 	<ul>
 		<li>Titulo: ${cancion.titulo}</li>
-		<li>Artista: ${cancion.artista}</li>
+		<li>Artista: ${cancion.artista.nombre}</li>
 		<li>Album: ${cancion.album}</li>
 		<li>Genero: ${cancion.genero}</li>
 		<li>Idioma: ${cancion.idioma}</li>
 	</ul>
-	
-	<a href="/canciones">Volver</a> 
+
+	<a href="/canciones/formulario/editar/${cancion.id}">Editar Cancion<a>
 	<br>
-	<a href="/canciones/formulario/editar/${cancion.id}">
-        <button>Editar Canción</button>
-    </a>
-	<br>
+
 	<form action="/canciones/eliminar/${cancion.id}" method="POST">
-		<input type="hidden" name="_method" value="DELETE">
-		<button>Eliminar Cancion</button>
+	<input type="hidden" name="_method" value="DELETE">
+    <button type="submit">Eliminar Canción</button>
 	</form>
+	
+	<a href="/canciones">Volver a la lista de canciones</a>
+	
+	
 </body>
 </html>
