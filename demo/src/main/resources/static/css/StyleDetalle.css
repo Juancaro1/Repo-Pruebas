@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer ul li a:hover {
+    color: #3498db;
+  }
+  
+  h2 {
+    color: #3498db;
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin-top: 30px;
+  }
+  
+  div p {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  div ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  div ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  form button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #c0392b;
+  }
+
+  form .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hidden {
+    display: none;
+}
