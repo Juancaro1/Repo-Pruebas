@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 0;
+}
+
+div ul li {
+    list-style: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(50% - 20px); 
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div ul li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+div ul li p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+div ul li a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+div ul li a:hover {
+    background-color: #0056b3;
+}
+
+div ul li a:active {
+    background-color: #004085;
+}
+
+div ul li h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+div ul li .poema-info {
+    margin-bottom: 10px;
+}
+
+div ul li .poema-info p {
+    margin: 5px 0;
+}
