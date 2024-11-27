@@ -36,12 +36,12 @@
 		
 		
 		<form:label path="password">Contrasena:</form:label>
-		<form:input path="password" type="text" required = "true"/>
+		<form:input path="password" type="password" required = "true"/>
 		<form:errors path="password"/>
 		
 		
 		<form:label path="confirmarPassword">Confirma la Contrasena:</form:label>
-		<form:input path="confirmarPassword" type="text" required = "true"/>
+		<form:input path="confirmarPassword" type="password" required = "true"/>
 		<form:errors path="confirmarPassword"/>
 		
 		<input type="submit" value="Registrarse"/>
